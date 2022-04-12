@@ -1,7 +1,7 @@
 # maven-parctice
 
 ## Lists
-- hellomaven
-- SumOfTwoNum
-- productService
-- productWeb
+- hello maven
+- Sum of Two Num In Terminal
+- Product Service (jar)
+- Product Web (war)
