@@ -1,8 +1,11 @@
 # maven-parctice
 
 ## Lists
-- hello maven
-- Sum of Two Num In Terminal
-- Product Service (jar)
-- Product Web (war)
-- Pro
+1. hello maven
+2. Sum of Two Num In Terminal
+3. Product Parent/-
+   - Product Service (jar)
+   - Product Web (war)
+
+
+
