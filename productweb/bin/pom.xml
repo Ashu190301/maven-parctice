@@ -41,11 +41,6 @@
 			<version>5.0.0</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.ashutosh.product</groupId>
-			<artifactId>productservices</artifactId>
-			<version>1.0</version>
-		</dependency>
 	</dependencies>
 
 	<build>
