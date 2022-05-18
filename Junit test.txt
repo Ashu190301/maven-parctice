@@ -1,0 +1,4 @@
+assertEquals("expected","actual")
+
+ex- assertEquals("ABC","ABCD");
+//expected: <ABC[]> but was: <ABC[D]>
