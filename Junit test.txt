@@ -1,4 +1,13 @@
 assertEquals("expected","actual")
-
 ex- assertEquals("ABC","ABCD");
 //expected: <ABC[]> but was: <ABC[D]>
+
+@Before = it always run before all @Test methods
+
+@After = it always run after all @Test methods
+
+@BeforeClass = it always run before it enter the class , it should be in static method
+
+@AfterClass = it always run after it enter the class , it should be in static method
+
+assertArrayEquals = same as assertEquals for arrays.
