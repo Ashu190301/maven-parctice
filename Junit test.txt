@@ -11,3 +11,6 @@ ex- assertEquals("ABC","ABCD");
 @AfterClass = it always run after it enter the class , it should be in static method
 
 assertArrayEquals = same as assertEquals for arrays.
+
+@Test(expected = NullPointerException.class) it search for any  NullPointerException Error.
+@Test(timeout=100) = execute under 100 milsec or false
