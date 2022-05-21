@@ -14,3 +14,47 @@ assertArrayEquals = same as assertEquals for arrays.
 
 @Test(expected = NullPointerException.class) it search for any  NullPointerException Error.
 @Test(timeout=100) = execute under 100 milsec or false
+
+@RunWith(Parameterized.class) = it check for @Parameters to run.
+
+ArgumentCaptor.forClass(String.class) = declaring the ArgumentCaptor
+stringArgumentCaptor.capture() = it capture the argument of that class
+stringArgumentCaptor.getValue() = it is value of that capture
+
+import static org.hamcrest.Matcher
+(hasSize(), hasItem(), everyItem(), greaterThan(), lessThan())
+everyItem() = for each element in list
+example = everyItem(greaterThan(90))
+
+example = assertThat(list, hasSize(4))
+
+//String
+assertThat("", isEmptyString())
+assertThat(null , isEmptyOrNullString())
+
+//Array
+assertThat( arrayName , arrayWithSize(3))
+assertThat( arrayName , arrayContaining(1,2,3))
+assertThat( arrayName , arrayContainingInAnyOrder(2,1,3))
+ 
+@Autowired -> @Autowired in spring boot is used to auto-wire a bean into another bean
+@Autowired annotation provides more fine-grained control over where and 
+how autowiring should be accomplished. The @Autowired annotation can 
+be used to autowire bean on the setter method just like @Required 
+annotation, constructor, a property or methods with arbitrary names 
+and/or multiple arguments.
+
+@Override -> annotation informs the compiler that the element 
+is meant to override an element declared in a superclass. 
+Overriding methods will be discussed in Interfaces and Inheritance. 
+While it is not required to use this annotation when overriding a 
+method, it helps to prevent errors.
+
+@Mock annotation creates mocks 
+@InjectMocks creates class objects
+@Captor = It is used to capture argument values for further 
+assertions. We use argument captor with the methods like verify() 
+or then() to get the values passed when a specific method is invoked.
+
+MockitoJUnitRunner = it gives you automatic validation of framework usage, 
+as well as an automatic initMocks() .
