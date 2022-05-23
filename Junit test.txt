@@ -58,3 +58,8 @@ or then() to get the values passed when a specific method is invoked.
 
 MockitoJUnitRunner = it gives you automatic validation of framework usage, 
 as well as an automatic initMocks() .
+
+PowerMockito = it is a PowerMock's extension API to support Mockito. It 
+provides capabilities to work with the Java Reflection API in a 
+simple way to overcome the problems of Mockito, such as the lack of 
+ability to mock final, static or private methods.
